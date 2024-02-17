@@ -24,3 +24,69 @@ body {
 }
 /*nav bar end */
 
+
+/*hero section start */
+.hero_section_main {
+    width: 90%;
+    margin: auto;
+}
+.bg_first_insert {
+    width: 100%;
+    height: 550px;
+    background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero_sec_btn  {
+    background-color: #1dd100 !important;
+    color: black !important;
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
+
+.bg_first_insert p:first-child {
+    font-size: 40px;
+    font-weight: 900;
+}
+.bg_first_insert :nth-child(2) {
+    font-size: 40px;
+    font-weight: 900;
+    color: #1dd100 ;
+}
+
+/*hero section end */
+
+
+/*! responsive section start here */
+
+/*hero section responsive start */
+@media only screen and (max-width : 540px) {
+    .bg_first_insert p:first-child {
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
+.bg_first_insert :nth-child(2) {
+    font-size: 25px;
+    font-weight: 900;
+    color: #1dd100 ;
+}
+.bg_first_insert {
+    height: 400px;
+}
+
+}
+/*hero section responsive end */
