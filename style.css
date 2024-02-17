@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+/*nav bar start */
+.nav_main {
+    width: 90%;
+    margin: 2% auto;
+}
+
+.car_btn_cus {
+    background-color: rgba(164, 236, 152, 0.3) !important;
+    color: rgb(29, 209, 0) !important;
+    border-bottom: rgb(29, 209, 0) !important;
+}
+.nav_brand_cus {
+    font-size: 24px !important;
+    font-weight: 900 !important;
+}
+/*nav bar end */
+
