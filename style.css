@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth !important;
+}
 
 body {
     font-family: 'Manrope', sans-serif;
@@ -186,9 +189,270 @@ body {
     -ms-border-radius: 10px !important;
     -o-border-radius: 10px !important;
 }
+/*best offer section end */
+
+/*ph paribahan section start */
+.ph_paribahan_main {
+    width: 100%;
+    height: 600px;
+    border-start-start-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top: 2px solid #39d720;
+    background-color: #f7f8f8;
+}
+.ph-discr p:first-child {
+    font-size: 26px;
+    font-weight: 900;
+}
+.greenline_sec {
+    width: 90%;
+    
+}
+.greenline_img_insert {
+    width: 100%;
+    height: 360px;
+    background-image: url(images/rec.png);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.seat_left {
+    background-color: rgba(164, 236, 152, 0.3) !important;
+    color: rgb(29, 209, 0) !important;
+    border-bottom: rgb(29, 209, 0) !important;
+    border-radius: 16px !important;
+    -webkit-border-radius: 16px !important;
+    -moz-border-radius: 16px !important;
+    -ms-border-radius: 16px !important;
+    -o-border-radius: 16px !important;
+}
+.greenline_img_inner_text {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    padding: 2%;
+}
+.first_side_text {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.bus_text_wrap p:first-child {
+    font-size: 24px;
+    font-weight: 900;
+} 
+.bus_text_wrap :nth-child(2) {
+    font-size: 14px;
+    color: #8e8f95;
+}
+.per_seat {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 2%;
+    margin-top: -2%;
+
+}
+
+
+.route {
+    width: 65%;
+    height: 200px;
+    background-color: #f7f8f8;
+    border-radius: 16px;
+    padding: 15px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.per_seat_inner {
+    width: 25%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.five-hun {
+    font-size: 40px;
+    font-weight: 900;
+}
+.per_seat_cus_text {
+    color: #686a71;
+}
+.route_text {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+.dashed-line {
+  border-bottom: 1px dashed black;
+  padding:  -50px;
+ 
+}
+.route_text_two {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+.dpt_btn {
+    background-color: #53575f !important;
+    border-radius: 12px !important;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    -ms-border-radius: 12px !important;
+    -o-border-radius: 12px !important;
+}
+.group_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+/*ticket section start */
+.ticket_section {
+    width: 90%;
+    height: 700px;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.main_ticket {
+    width: 60%;
+    
+    height: 900px;
+    padding: 70px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.avilable_seat_sec_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.ticket_info {
+    width: 40%;
+    height: 700px;
+    padding: 70PX;
+    
+     border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.avail_with_img, .seat_selected {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+/*ticket seat plan start */
+.driver_seat {
+    display: flex;
+    justify-content: end;
+}
+.driver_seat span img  {
+    
+    
+    width: 35px;
+}
+.left_side_seat_wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    
+}
+.driver_seat span  {
+    padding: 2px 23px;
+}
+.a1_seat, .a2_seat  {
+    
+    width: 80px;
+    height: 50px;
+    overflow: auto;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.a1_seat, .a2_seat:hover {
+    cursor: pointer !important;
+}
+.passanger_seat {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* seat info section start */
+
+.seats_count {
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+    background-color: #f7f8f8;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.seat_class_price_text_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.c2_economy-fifty_text_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.tottal_price {
+    display: flex;
+    justify-content: space-between;
+}
+.grand_tottal_text {
+    display: flex;
+    justify-content: space-between;
+}
+.end_btn {
+    padding: 15px 130px;
+    background-color: #1dd100;
+	}
+.tearms_and_condition_text a {
+    border-bottom: 1px solid #686a71;
+    font-size: 13px;
+    }
+.tearms_and_condition_text {
+    display: flex;
+    justify-content: space-between;
+}
 /*! responsive section start here */
 
 /*hero section responsive start */
+.ph_paribahan_main {
+    width: 100%;
+}
 @media only screen and (max-width : 540px) {
     .bg_first_insert p:first-child {
     font-size: 25px;
@@ -222,5 +486,85 @@ body {
 @media only screen and (max-width : 470px) {
     .sub_card_img_text p:first-child {
         font-size: 13px;
+    }
+}
+/*ph paribahan section responsive start */
+@media only screen and (max-width : 1332px){
+    .dpt_btn {
+        font-size: 13px !important;
+    }
+}
+@media only screen and (max-width : 1056px) {
+    .dpt_btn {
+        font-size: 8px !important;
+        padding: 2% !important;
+    }
+    .seat_left {
+        width: 150px !important;
+    }
+    
+}
+@media only screen and (max-width : 642px) {
+    .dpt_btn {
+        font-size: 10px !important;
+        padding: 3% !important;
+        line-height: 10px;
+    }
+}
+/* ticket section responsive start */
+@media only screen and (max-width: 1014px) {
+    .ticket_section  {
+        flex-direction: column !important;
+    }
+    .main_ticket {
+        width: 70%;
+        margin: auto;
+    }
+    .ticket_info {
+        width: 60%;
+        margin: auto;
+    }
+    
+}
+@media only screen and (max-width: 1018px) {
+    .main_ticket {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1018px) {
+     .ticket_info {
+      position: relative;
+    }
+    .ticket_info::before {
+      content: '';
+      position: absolute;
+      top: 17%;
+      left: 0%;
+      width: 1px; 
+      height: 100%;
+      border-left: 2px dashed #b3b5b8; 
+      transform: translateX(-50%);
+      z-index: -1;
+    }
+}
+@media only screen and (max-width: 830px) {
+    .main_ticket {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .ticket_info {
+        margin: auto;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 498px) {
+    .a1_seat, .a2_seat {
+        width: 40px;
+        height: 30px;
+    }
+}
+@media only screen and (max-width: 632px) {
+    .ticket_info {
+        width: 100%;
     }
 }
