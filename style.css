@@ -353,6 +353,9 @@ body {
     justify-content: space-between;
     
 }
+.seat_selected p {
+    color: #1dd100;
+}
 .ticket_info {
     width: 40%;
     height: 700px;
@@ -423,6 +426,21 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.seat_class_price_text_wrap span {
+    right: 71% !important;
+    top: 138px;
+    background-color: #1dd100;
+}
+/* .for_be::after {
+    content: "2";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    
+    left: 20%;
+    
+    background-color: red;
+} */
 .c2_economy-fifty_text_wrap {
     display: flex;
     justify-content: space-between;
