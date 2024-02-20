@@ -323,6 +323,19 @@ body {
     gap: 20px;
 }
 /*ticket section start */
+.seat {
+      width: 60%;
+      height: 50px;
+      margin: auto;
+    }
+    .selected {
+      background-color: #1dd100 !important;
+    }
+	.for_width{
+		height: 100%;
+	}
+
+
 .ticket_section {
     width: 90%;
     height: 700px;
@@ -431,16 +444,6 @@ body {
     top: 138px;
     background-color: #1dd100;
 }
-/* .for_be::after {
-    content: "2";
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    
-    left: 20%;
-    
-    background-color: red;
-} */
 .c2_economy-fifty_text_wrap {
     display: flex;
     justify-content: space-between;
@@ -464,6 +467,70 @@ body {
 .tearms_and_condition_text {
     display: flex;
     justify-content: space-between;
+}
+
+
+/* footer section start */
+.ftr {
+    width: 100%;
+    height: 300px;
+    background-color: #030712;
+    margin-top: 350px;
+}
+.pticket {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pticket p:first-child {
+    font-size: 24px;
+    color: white;
+    font-weight: 900;
+}
+.pticket :nth-child(2) {
+    color: #cdcdd0;
+
+}
+.dwnapp {
+    display: flex;
+    flex-direction: column;
+    
+}
+.dwnapp p {
+    color: white;
+}
+.ftr_inner {
+    width: 80%;
+    margin:auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.dashed-linee {
+    border-bottom: 1px dashed white;
+    padding:  -50px;
+    width: 80%;
+    margin: auto;
+    padding-top: 50PX;
+}
+.all_right {
+    width: 80%;
+    margin:auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.conditions {
+    display: flex;
+    gap: 10px;
+}
+.all_right p {
+    color: #cdcdd0;
+    font-size: 12px;
+}
+.conditions a {
+    color: white;
+    font-size: 12px;
 }
 /*! responsive section start here */
 
@@ -575,6 +642,11 @@ body {
         padding: 0;
     }
 }
+@media only screen and (max-width: 830px) {
+    .ticket_info {
+        margin-top: 150px;
+    }
+}
 @media only screen and (max-width: 498px) {
     .a1_seat, .a2_seat {
         width: 40px;
@@ -584,5 +656,19 @@ body {
 @media only screen and (max-width: 632px) {
     .ticket_info {
         width: 100%;
+    }
+}
+/* footer reponsive start */
+@media only screen and (max-width: 1018px) {
+    .ftr {
+        margin-top: 1070px !important;
+    }
+}
+@media only screen and (max-width: 528px) {
+    .conditions {
+        flex-direction: column !important;
+    }
+    .ftr {
+        height: fit-content !important;
     }
 }
